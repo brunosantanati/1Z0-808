@@ -26,5 +26,10 @@ abstract class Profit implements Profitable1, Profitable2 { //Duplicate default 
 public class Test20 extends Profit{
 	public static void main(String[] args) {
 		System.out.println(new Test20().profit());
+		System.out.println(new Xpto().profit());
 	}
+}
+
+//MY TEST
+class Xpto implements Profitable1{
 }
